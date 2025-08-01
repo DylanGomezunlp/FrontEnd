@@ -1,0 +1,1 @@
+Este repositorio está dedicado a almacenar ejercicios y prácticas derivadas de cursos y retos de front-end, como parte de mi formación continua. Aquí iré aplicando nuevas técnicas y herramientas mientras mejoro mi dominio de HTML, CSS, JavaScript y diseño responsivo.
