@@ -1,0 +1,82 @@
+h1{
+    color:#560bad;
+}
+
+body{
+    background: linear-gradient(#140427, #f3e9ff);
+}
+a:link, a:visited{
+    background-color: #b5179e;
+    color:white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,a:active{
+    background-color: #f72575;
+}
+
+.boton {
+    background-color: #3a0ca3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.boton:hover {
+    background-color: #7209b7;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #7209b7;
+    border-radius: 10px;
+    background-color: #f3e9ff; /* Complementary background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+fieldset {
+    border: 1px solid #7209b7;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #3a0ca3;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #560bad;
+}
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #7209b7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f3e9ff;
+    color: #3a0ca3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    border-color: #3a0ca3;
+    background-color: #e0c3fc;
+    outline: none;
+}
+

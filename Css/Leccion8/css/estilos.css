@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color:#e63046;
+}
+
+div.contenedor{
+    border-radius: 15px;
+    display: flex;
+    background-color: #560bad;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap ;
+    /* justify-content: center; centrar cosas en un div */
+    justify-content: space-between; /* separar los elementos, space arround deja espacio entre los elementos, space niveling deja el mismo espacio entre todos los elementos */
+    height: 300px;
+    align-items: center;
+    align-content: center;
+}
+
+div.contenedor > p{
+    background-color: #4895ed;
+    border-radius: 15px;
+    color: #f1faee;
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.5em;
+}
